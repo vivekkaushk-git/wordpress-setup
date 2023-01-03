@@ -1,0 +1,174 @@
+/**
+Theme Name: tgb
+Text Domain: tgb
+Template: astra
+*/
+
+
+
+
+p {
+	margin: 0 0 5px;
+}
+
+.elementor-widget-text-editor p {
+	margin-bottom: 5px;
+}
+
+.page-banner > .elementor-widget-container {
+	min-height: calc(540/1284 * 100vw) !important;
+}
+
+.mc4wp-checkbox label {
+    display: flex!important;
+    align-items: center;
+    cursor: pointer;
+}
+
+input.acfef-submit-button {
+    width: 100%;
+    font-size: 1.4em!important;
+    text-transform: uppercase;
+}
+
+.woocommerce-form__label-for-checkbox.checkbox input,
+.mc4wp-checkbox label input {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px!important;
+}
+
+.woocommerce-terms-and-conditions-wrapper>p {
+    padding: 0px!important;
+}
+
+.round-button .elementor-button-wrapper a{
+	width: 120px;
+	height: 120px;
+	line-height: 115px;
+	font-size: 0.875rem;
+	padding: 0 5px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+
+.woocommerce-products-header{
+	background-image: url(/wp-content/uploads/2021/05/Mix-of-Boats-moored-on-coastline-edited-Pixlr-Copy-1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.woocommerce ul.products.columns-3, .woocommerce-page ul.products.columns-3 {
+	width: 100%;
+}
+
+span.ast-woo-header-cart-info-wrap {
+	display: none!important;
+}
+
+.button{
+	background:#32b178 !important;
+}
+
+.button:hover{
+	background:#30a772 !important;
+	transition:0.3s !important;
+
+}
+
+
+/*---RIGHT ROLLOVER ---*/
+
+
+.grow {
+	width: 264px;
+	float: right;
+	position: fixed;
+	right: -180px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.4s;
+	top: 210px;
+	background: #FADC87;
+	display: flex;
+	border-radius:0;
+	z-index:11;
+}
+
+.grow:hover {
+	width: 264px;
+	float: right;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.4s;
+	top: 210px;
+	background:#FADC87;
+	display: flex;
+	border-radius:0;
+
+}
+
+.img-verticle-expand {
+	/*width: 84%;*/
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.img-verticle-expand img{
+	width:30%;
+}
+.img-verticle-expand p{
+	width:70%;
+	color:black;
+	font-family: "Roboto", Sans-serif;
+	font-weight:500;
+	font-size:1.0625rem;
+	text-align:left;
+	padding:0 15px;
+	line-height: 24px;
+	margin-bottom:0;
+
+}
+
+/*---END RIGHT ROLLOVER ---*/
+
+
+
+
+/*---LEFT  SOCIAL MEDIA ICONS ---*/
+
+.social-float-right{
+	position: fixed;
+	z-index: 9;
+	top: 250px;
+	left: 0;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	background:#34b575;
+	margin: auto;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding:10px 2px;
+}
+
+.social-float-right li a img{
+	width:40px;
+	margin: 5px;
+}
+
+/*---END LEFT  SOCIAL MEDIA ICONS ---*/
+
+
+/* Container */
+@media (min-width:1024px){
+	.ast-separate-container .ast-article-post,
+	.ast-separate-container .ast-article-single,
+	.ast-separate-container .ast-woocommerce-container {
+		padding: 3em;
+	}	
+}

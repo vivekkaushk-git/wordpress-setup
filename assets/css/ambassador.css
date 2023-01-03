@@ -1,0 +1,13 @@
+.sub-heading h3 span{
+    font-size:1.0625rem;
+}
+
+.sub-heading p span a{
+    color:#fa9a5a;
+}
+
+@media (max-width: 767px){
+    .sub-heading h3{
+        margin-top:2rem;
+    }
+}
